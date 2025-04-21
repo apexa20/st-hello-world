@@ -12,8 +12,7 @@ st.markdown("Predict the estimated delivery time based on order details.")
 #    Load the Model 
 model_path = r"C:\Users\dhara\Desktop\delivery_time_model.pkl" 
 if not os.path.exists(model_path): 
-    st.error("Model file 'delivery_time_model.pkl' not found! Make sure it's in the correct 
-directory.") 
+    st.error("Model file 'delivery_time_model.pkl' not found! Make sure it's in the correct directory.") 
     st.stop() 
  
 try:
